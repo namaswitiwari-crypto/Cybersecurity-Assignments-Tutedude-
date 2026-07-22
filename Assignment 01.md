@@ -1,0 +1,29 @@
+Assignment 01 – Linux Basics
+
+## Task
+- Learn and practice fundamental Linux commands to understand the operating system environment.
+- Identify the current working directory.
+- Find out the username of the logged-in user.
+
+## Approach
+1. **Command to show current directory**
+   - Used the `pwd` (print working directory) command.
+   - Output:
+     ```
+     student@hacking:~$ pwd
+     /home/student
+     ```
+
+2. **Command to show logged-in username**
+   - Used the `whoami` command.
+   - Output:
+     ```
+     student@hacking:~$ whoami
+     student
+     ```
+
+## Key Learnings
+- The `pwd` command helps confirm your location in the filesystem, which is essential when navigating or working with files.  
+- The `whoami` command is useful to verify the active user account, especially in multi-user environments.  
+- These basic commands form the foundation for more advanced Linux operations in cybersecurity tasks.
+
