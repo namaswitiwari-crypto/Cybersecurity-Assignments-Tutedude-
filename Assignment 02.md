@@ -7,29 +7,26 @@ Assignment 02 – Linux File Permissions
 
 ## Approach
 1. **Navigating to the directory**
-   ```bash
-   cd /home/student
-   ls -al
+```bash
+cd /home/student
+ls -al
 ```
 - Listed files with detailed permissions to analyze ownership and access rights.
 
 2. **Changing permissions**
 
-```
-bash
+```bash
 chmod 777 /home/student/practice/restricted_file.txt
 ```
 Modified the file’s permissions to allow read, write, and execute access for all users.
 
 3. **Reading the restricted file**
 
-```
-bash
+```bash
 cat /home/student/practice/restricted_file.txt
 ```
 Output:
-```
-Code
+```Code
 flag{you_understood_permissions}
 ```
 
