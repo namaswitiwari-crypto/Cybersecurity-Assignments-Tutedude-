@@ -7,27 +7,25 @@
 
 ## Approach
 1. **Navigating to the loot folder**
-   ```bash
-   cd /home/student/loot
-   ls
+```bash
+cd /home/student/loot
+ls
 ```
 Found a file named readme.txt.
 
 2. **Reading the file contents**
-```
-bash
+```bash
 cat readme.txt
 ```
 3. **Listing hidden files**
-```
-bash
+
+```bash
 ls -al
 ```
 Revealed a hidden file: .hidden_file.txt.
 
 4. **Reading the hidden file**
-```
-bash
+```bash
 cat .hidden_file.txt
 ```
 
