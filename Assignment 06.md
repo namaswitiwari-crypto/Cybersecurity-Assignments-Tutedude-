@@ -24,6 +24,8 @@ user\_role=employee
 Since role information was being transmitted from the client side, this indicated a potential authorization weakness.
 
 Evidence
+
+
 !\[Burp Request Manipulation](Assignment-06screenshots/burp-role-manipulation.jpeg)
 
 ### Privilege Escalation
@@ -45,6 +47,8 @@ After resubmitting the modified request, the application granted administrator p
 This confirmed that authorization decisions were being made using user-controlled input.
 
 Evidence
+
+
 !\[Admin Dashboard](Assignment-06screenshots/admin-dashboard.jpeg)
 
 ## Attack Flow
