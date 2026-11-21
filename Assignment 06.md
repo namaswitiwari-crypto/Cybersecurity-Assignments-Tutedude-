@@ -26,7 +26,7 @@ Since role information was being transmitted from the client side, this indicate
 Evidence
 
 
-!\[Burp Request Manipulation](Assignment-06screenshots/burp-role-manipulation.jpeg)
+![Burp Request Manipulation](Assignment-06screenshots/burp-role-manipulation.jpeg)
 
 ### Privilege Escalation
 
@@ -49,7 +49,7 @@ This confirmed that authorization decisions were being made using user-controlle
 Evidence
 
 
-!\[Admin Dashboard](Assignment-06screenshots/admin-dashboard.jpeg)
+![Admin Dashboard](Assignment-06screenshots/admin-dashboard.jpeg)
 
 ## Attack Flow
 
@@ -84,7 +84,7 @@ This vulnerability falls under:
 * Privilege Escalation
 * Insecure Session Management
 
-\## Security Impact
+## Security Impact
 If present in a real-world application, this vulnerability could allow attackers to:
 
 * Gain unauthorized administrative access
